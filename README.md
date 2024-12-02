@@ -2,8 +2,9 @@
 
 - [x] O Sistema deve permitir o cadastro de usuários com nome, e-mail e senha.
 - [x] O Sistema deve validar se o e-mail é único.
-- [] O Sistema deve permitir que o usuário faça login com e-mail e senha.
-- [] O sistema deve permitir que o usuário crie tarefas com título, descrição e prazo de entrega.
+- [x] O Sistema deve permitir que o usuário faça login com e-mail e senha.
+- [x] Deve ser possível obter o perfil de um usuário logado.
+- [x] O sistema deve permitir que o usuário crie tarefas com título, descrição e prazo de entrega.
 - [] O Sistema deve permitir que o usuário edite tarefas criadas por ele.
 - [] O sistema deve permitir que o usuário exclua tarefas criadas por ele.
 - [] O sistema deve listar as tarefas do usuário, podendo ser filtradas por status (pendente, em progresso, concluída).
@@ -28,5 +29,5 @@
 - [] O prazo de entrega não pode ser uma data anterior à data atual
 - [] Usuários não podem criar tarefas sem estar logados
 - [] Usuários só podem visualizar e gerenciar suas próprias tarefas
-- [] Um e-mail só pode ser associado a um único usuário
+- [x] Um e-mail só pode ser associado a um único usuário
 - [] Tarefas concluídas não podem voltar para o status "em progresso" ou "pendente"

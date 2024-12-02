@@ -1,5 +1,5 @@
-import type { UsersRepository } from '@/repositories/users-repository.js'
-import { UserAlreadyExistsError } from './errors/user-already-exists-error.js'
+import type { UsersRepository } from '@/repositories/users-repository'
+import { UserAlreadyExistsError } from './errors/user-already-exists-error'
 import type { User } from '@prisma/client'
 import bcrypt from 'bcryptjs'
 
